@@ -674,8 +674,8 @@ video {
 .h-20 {
   height: 5rem;
 }
-.h-40 {
-  height: 10rem;
+.h-36 {
+  height: 9rem;
 }
 .h-5 {
   height: 1.25rem;
@@ -685,9 +685,6 @@ video {
 }
 .h-8 {
   height: 2rem;
-}
-.h-36 {
-  height: 9rem;
 }
 .min-h-screen {
   min-height: 100vh;
@@ -1021,6 +1018,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(88 166 255 / var(--tw-text-opacity, 1));
 }
+.text-purple-400 {
+  --tw-text-opacity: 1;
+  color: rgb(192 132 252 / var(--tw-text-opacity, 1));
+}
 .text-text-primary {
   --tw-text-opacity: 1;
   color: rgb(201 209 217 / var(--tw-text-opacity, 1));
@@ -1036,10 +1037,6 @@ video {
 .text-yellow-400 {
   --tw-text-opacity: 1;
   color: rgb(250 204 21 / var(--tw-text-opacity, 1));
-}
-.text-purple-400 {
-  --tw-text-opacity: 1;
-  color: rgb(192 132 252 / var(--tw-text-opacity, 1));
 }
 .underline {
   text-decoration-line: underline;
