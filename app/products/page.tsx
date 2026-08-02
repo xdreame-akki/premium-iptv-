@@ -31,7 +31,7 @@ const ProductsPage = () => {
           {products.map((product) => (
             <div key={product.id} className="bg-gray-800 border border-gray-700 rounded-xl overflow-hidden shadow-lg hover:shadow-orange-400/20 transition-all duration-300 flex flex-col group">
               <Link href={`/products/${product.id}`} className="block cursor-pointer">
-                <div className="relative w-full h-48">
+                <div className="relative w-full h-36">
                   <Image
                     src={product.image}
                     alt={`Image for ${product.name}`}
@@ -45,7 +45,7 @@ const ProductsPage = () => {
                     </div>
                   )}
                 </div>
-                <div className="p-6">
+                <div className="p-4">
                   <h2 className="text-xl font-bold text-white mb-2" style={{ minHeight: '3.5rem' }}>{product.name}</h2>
                   
                   <div className="flex items-center mb-4">
