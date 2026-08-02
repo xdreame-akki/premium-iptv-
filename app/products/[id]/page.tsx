@@ -58,10 +58,9 @@ const ProductPage = ({ params }: { params: { id: string } }) => {
   return (
     <div className="bg-gray-900 text-white min-h-screen">
       <main className="container mx-auto px-4 py-12 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-         
-          <div className="flex justify-center items-center">
-            <div className="relative aspect-square w-full max-w-xl">
+        <div className="flow-root">
+          <div className="lg:float-left lg:w-2/5 lg:pr-12 mb-4">
+            <div className="relative aspect-square w-full max-w-md mx-auto">
               <Image
                 src={product.image}
                 alt={product.name}
@@ -76,7 +75,6 @@ const ProductPage = ({ params }: { params: { id: string } }) => {
               )}
             </div>
           </div>
-
           
           <div>
             <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white">{product.name}</h1>
@@ -99,14 +97,16 @@ const ProductPage = ({ params }: { params: { id: string } }) => {
               )}
             </div>
 
-            <Link
-              href={whatsappLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-8 inline-flex items-center justify-center w-full px-8 py-4 text-lg font-bold text-white bg-green-500 rounded-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 focus:ring-offset-gray-900 transition-colors duration-300"
-            >
-              Order Now on WhatsApp
-            </Link>
+            <div className="mt-8">
+              <Link
+                href={whatsappLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center max-w-xs px-8 py-4 text-lg font-bold text-white bg-green-500 rounded-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 focus:ring-offset-gray-900 transition-colors duration-300"
+              >
+                Order Now on WhatsApp
+              </Link>
+            </div>
 
             <div className="mt-10 prose prose-invert max-w-none text-gray-300">
                 <h2 className="text-xl font-bold text-white mb-4">Why Choose {product.name}?</h2>
@@ -120,7 +120,6 @@ const ProductPage = ({ params }: { params: { id: string } }) => {
                 
                 <div className="mt-8 text-gray-300" dangerouslySetInnerHTML={{ __html: product.seoText }} />
             </div>
-
           </div>
         </div>
 
