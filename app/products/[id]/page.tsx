@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: { params: { id: string } }): 
     title: product.metaTitle,
     description: product.metaDescription,
     alternates: {
-      canonical: `/products/${product.id}`,
+      canonical: `https://premium-iptv-woad.vercel.app/products/${product.id}`,
     },
     openGraph: {
         title: product.metaTitle,

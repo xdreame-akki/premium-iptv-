@@ -13,7 +13,7 @@ export const products = [
     
     // 🎯 ZONE METADATA COMPLETEMENT VERROUILLÉE POUR L'INDEXATION GOOGLE UK
     metaTitle: "Smart IPTV UK | Best IPTV for Firestick 2024 & Smart TV Player",
-    metaDescription: "Stream seamlessly with the ultimate app smart iptv in the UK. Get instant iptv log in access to 4K channels via iptv smarters apk with zero buffering on BT and Virgin Media.",
+    metaDescription: "Get the best Smart IPTV in the UK. Instant access to 4K channels with our app, works with IPTV Smarters APK. No buffering on BT or Virgin Media.",
 
     shortDescription: "Elite UK IPTV subscription engineered for the ultimate smart tv player experience. Perfectly calibrated to prevent freezing during Premier League matches using the latest ip smarters pro apk or smartoneiptv setup.",
     
@@ -48,7 +48,7 @@ export const products = [
     
     // 🎯 ZONE METADATA COMPLETEMENT VERROUILLÉE POUR L'INDEXATION GOOGLE UK
     metaTitle: "TiviMate UK | The Best IPTV Players & Firestick Subscription",
-    metaDescription: "Get your exclusive tivimate login for the UK's top-rated server. Ranked among the best iptv players, ensuring flawless 4K streaming on Firestick and Android.",
+    metaDescription: "Receive your exclusive TiviMate login for the UK's best server. Enjoy flawless 4K IPTV streaming on your Firestick and Android devices.",
 
     shortDescription: "Optimised specifically for the undisputed best iptv player android and firestick. Access ultra-stable UK streams with an instant tivimate login to unlock premium sports without buffering.",
     
@@ -83,7 +83,7 @@ export const products = [
     
     // 🎯 ZONE METADATA COMPLETEMENT VERROUILLÉE POUR L'INDEXATION GOOGLE UK
     metaTitle: "IPTV Smarters Pro UK | Best IPTV App For Firestick 2024",
-    metaDescription: "Download the official iptv smarters apk. Upgrade from the best free iptv for firestick to a premium buffer-free UK server. Get your instant iptv log in now.",
+    metaDescription: "Download the official IPTV Smarters APK. Upgrade from free IPTV for Firestick to a premium, buffer-free UK server. Get your instant IPTV login now.",
 
     shortDescription: "The ultimate premium UK stream configured for the ip smarters pro apk. Widely regarded as the best iptv app for firestick, delivering 4K live sports without ISP throttling.",
     
@@ -118,7 +118,7 @@ export const products = [
     
     // 🎯 ZONE METADATA COMPLETEMENT VERROUILLÉE POUR L'INDEXATION GOOGLE UK
     metaTitle: "KeepIPTV | Premium IBO Pro Player UK Server for ibplayer",
-    metaDescription: "Activate your device via ibostreaming.com and connect to KeepIPTV's elite UK server. Enjoy buffer-free 4K sports on the ultimate ibplayer application.",
+    metaDescription: "Activate your device on ibostreaming.com and connect to our elite UK server. Watch buffer-free 4K sports with the IBO Player application.",
 
     shortDescription: "Engineered specifically for optimal performance on the ibplayer application. Activate your Smart TV easily through ibostreaming.com for instant, buffer-free access to live UK sports.",
     
@@ -154,7 +154,7 @@ export const products = [
     image: "/atlas-pro.webp",
     
     metaTitle: "Atlas Pro Premium UK | Top Stable IPTV Subscription",
-    metaDescription: "Acquire the ultimate uk iptv subscription from leading iptv providers uk. Stream flawless 4K media on firestick iptv, nvidia shield, and xciptv player.",
+    metaDescription: "Get the ultimate UK IPTV subscription from a leading provider. Stream flawless 4K on Firestick, Nvidia Shield, and XCIPTV Player.",
   
     shortDescription: "Elite uk iptv subscription powered by private anti freeze nodes. Custom-calibrated to eradicate iptv buffering across smart tvs and firestick iptv.",
     
@@ -410,7 +410,7 @@ export const products = [
     image: "/hot-iptv-premium.webp",
     
     metaTitle: "Hot IPTV Player Activation | Fix Streaming Errors UK",
-    metaDescription: "Complete setup for Hot IPTV on Firestick, LG, and Samsung. Eliminate 'stream failed' messages and successfully launch your media playlist.",
+    metaDescription: "Get a complete setup for Hot IPTV on Firestick, LG, and Samsung. Fix 'stream failed' errors and launch your playlist successfully.",
   
     shortDescription: "Unlock unparalleled performance with our professional Hot IPTV configuration. Custom-built for the UK market to eliminate errors and stream 4K seamlessly.",
     
