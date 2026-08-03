@@ -52,6 +52,10 @@ const JsonLdSchema = () => (
         '@context': 'https://schema.org',
         '@type': 'Product',
         name: 'Premium IPTV Subscription UK',
+        
+        // On utilise l'image qui est déjà dans ton dossier public !
+        image: 'https://premium-iptv-woad.vercel.app/placeholder-hero.webp', 
+        
         description: 'High-performance IPTV services for the UK market with 4K/UHD streaming, 18,000+ channels, and full sports coverage from the UK best IPTV providers.',
         brand: {
           '@type': 'Brand',
@@ -61,7 +65,7 @@ const JsonLdSchema = () => (
         mpn: 'IPTV-UK-12M',
         offers: {
           '@type': 'Offer',
-          url: 'https://premium-iptv-woad.vercel.app/#pricing', // Replace with your actual domain
+          url: 'https://premium-iptv-woad.vercel.app/#pricing', 
           priceCurrency: 'GBP',
           price: '69.99',
           priceValidUntil: '2026-12-31',
@@ -94,7 +98,6 @@ const JsonLdSchema = () => (
     }}
   />
 );
-
 const FaqJsonLdSchema = () => (
     <script
       type="application/ld+json"
