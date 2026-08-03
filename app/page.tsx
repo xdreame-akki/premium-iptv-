@@ -251,7 +251,7 @@ const PricingTable = () => (
                 Best Value
             </div>
             <h3 className="text-2xl font-semibold">12 Months</h3>
-            <p className="mt-4 text-4xl font-bold">£69.99</p>
+            <p className="mt-4 text-4xl font-bold">£39.99</p>
             <p className="mt-1 text-sm text-text-secondary">Equals just £5.83/month</p>
              <ul className="mt-6 space-y-4 text-text-secondary">
                 <li className="flex items-center"><Sparkles className="h-5 w-5 text-primary mr-3" /> 1 Connection</li>
@@ -267,7 +267,7 @@ const PricingTable = () => (
         {/* Pricing Card 3 */}
          <div className="flex flex-col rounded-lg border border-card-border bg-card p-8">
             <h3 className="text-2xl font-semibold">6 Months</h3>
-            <p className="mt-4 text-4xl font-bold">£39.99</p>
+            <p className="mt-4 text-4xl font-bold">£29.99</p>
             <p className="mt-1 text-sm text-text-secondary">Equals £6.66/month</p>
             <ul className="mt-6 space-y-4 text-text-secondary">
                 <li className="flex items-center"><PlusCircle className="h-5 w-5 text-primary mr-3" /> 1 Connection</li>
