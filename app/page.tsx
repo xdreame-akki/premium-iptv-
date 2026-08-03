@@ -1,4 +1,3 @@
-
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import {
@@ -17,16 +16,16 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Best IPTV UK Provider | #1 IPTV Subscription for 4K Sports & TV',
+  title: 'Best IPTV UK | Premium IPTV Subscription UK & Providers',
   description:
-    'Looking for the best IPTV UK provider? Get a premium IPTV subscription with 18,000+ channels in 4K/UHD. Enjoy buffer-free UK sports, PPV, and more on all devices, including Firestick. Subscribe now!',
+    'Searching for the best IPTV UK? Get a premium IPTV subscription UK with 18,000+ channels. As one of the UK best IPTV providers, enjoy 4K sports. IPTV subscribe today!',
   alternates: {
     canonical: 'https://www.premium-iptv-uk.com/', // Replace with your actual domain
   },
   openGraph: {
-    title: 'The Best IPTV UK Subscription Service | Premium 4K Channels',
+    title: 'The Best IPTV UK Subscription | Premium UK IPTV Providers',
     description:
-      'Join the #1 IPTV provider in the UK. Our subscription offers buffer-free 4K streaming, instant access to sports, PPV, and thousands of channels. Perfect for Firestick and all your devices.',
+      'Join the #1 IPTV providers in the UK. Our IPTV subscription UK offers buffer-free 4K streaming, instant access to sports, PPV, and thousands of channels. Perfect for Firestick, Smartone IPTV, and all devices.',
     url: 'https://www.premium-iptv-uk.com/', // Replace with your actual domain
     siteName: 'Premium IPTV UK',
     images: [
@@ -34,7 +33,7 @@ export const metadata: Metadata = {
         url: '/og-image.jpg', // Replace with your actual OG image path
         width: 1200,
         height: 630,
-        alt: 'Premium IPTV UK Service',
+        alt: 'Best IPTV UK Service',
       },
     ],
     locale: 'en_GB',
@@ -49,8 +48,8 @@ const JsonLdSchema = () => (
       __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Product',
-        name: 'Premium IPTV UK Subscription',
-        description: 'High-performance IPTV service for the UK market with 4K/UHD streaming, 18,000+ channels, and full sports coverage.',
+        name: 'Premium IPTV Subscription UK',
+        description: 'High-performance IPTV services for the UK market with 4K/UHD streaming, 18,000+ channels, and full sports coverage from the UK best IPTV providers.',
         brand: {
           '@type': 'Brand',
           name: 'Premium IPTV UK',
@@ -62,7 +61,7 @@ const JsonLdSchema = () => (
           url: 'https://www.premium-iptv-uk.com/#pricing', // Replace with your actual domain
           priceCurrency: 'GBP',
           price: '69.99',
-          priceValidUntil: '2024-12-31',
+          priceValidUntil: '2026-12-31',
           availability: 'https://schema.org/InStock',
           seller: {
             '@type': 'Organization',
@@ -85,7 +84,7 @@ const JsonLdSchema = () => (
                 "@type": "Rating",
                 "ratingValue": "5"
               },
-              "reviewBody": "Absolutely flawless service. The 4K quality is stunning and there's never any buffering, even during big football matches. Highly recommended!"
+              "reviewBody": "Absolutely flawless IPTV services. The 4K quality is stunning and there's never any buffering, even during big football matches. Highly recommended as the best IPTV UK!"
             }
         ]
       }),
@@ -103,23 +102,23 @@ const FaqJsonLdSchema = () => (
             "mainEntity": [
               {
                 "@type": "Question",
-                "name": "Do I need a VPN to use this service in the UK?",
+                "name": "Do I need a VPN to use this IPTV subscription UK?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "While our service is secure, we highly recommend using a VPN in the UK. It ensures your streaming activity remains private from your ISP and helps bypass any potential ISP-level blocking, guaranteeing uninterrupted access."
+                  "text": "While our IPTV providers network is secure, we highly recommend using a VPN in the UK. It ensures your streaming activity remains private from your ISP and helps bypass any potential ISP-level blocking, guaranteeing uninterrupted access."
                 }
               },
               {
                 "@type": "Question",
-                "name": "Does this IPTV service work on an Amazon Firestick?",
+                "name": "Does this IPTV service work on an Amazon Firestick and Smartone IPTV?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes, absolutely. Our service is fully compatible with all Amazon Firestick devices (including Firestick 4K, Fire TV Cube). We provide a simple, step-by-step installation guide to get you set up in minutes."
+                  "text": "Yes, absolutely. Our service is fully compatible with all Amazon Firestick devices and major apps like Smartone IPTV. We provide a simple, step-by-step installation guide to get you set up in minutes."
                 }
               },
               {
                 "@type": "Question",
-                "name": "What UK sports channels are included?",
+                "name": "What UK sports channels are included with the best IPTV UK?",
                 "acceptedAnswer": {
                   "@type": "Answer",
                     "text": "We provide comprehensive coverage of UK sports, including all Sky Sports, TNT Sports (formerly BT Sport), Viaplay Sports, and access to major PPV events in boxing and UFC. You won't miss any action."
@@ -127,10 +126,10 @@ const FaqJsonLdSchema = () => (
               },
                {
                 "@type": "Question",
-                "name": "Can I watch on multiple devices at the same time?",
+                "name": "Can I watch on multiple devices at the same time with my IPTV subscription?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Our standard subscription allows for one connection at a time. However, we offer affordable multi-room options if you need to watch on multiple devices simultaneously. Please contact our support for a custom quote."
+                  "text": "Our standard IPTV subscription UK allows for one connection at a time. However, we offer affordable multi-room options if you need to watch on multiple devices simultaneously. Please contact our support for a custom quote."
                 }
               }
             ]
@@ -138,9 +137,6 @@ const FaqJsonLdSchema = () => (
       }}
     />
 )
-
-
-
 
 const HeroSection = () => (
   <section className="relative w-full py-20 md:py-32 lg:py-40">
@@ -157,10 +153,10 @@ const HeroSection = () => (
     </div>
     <div className="container mx-auto px-4 text-center md:px-6 relative">
       <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
-        The UK's #1 IPTV Provider for Premium 4K Streaming
+        The Best IPTV UK Provider for Premium 4K Streaming
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg text-text-secondary md:text-xl">
-        Get the best IPTV subscription in the UK. Enjoy buffer-free, 99.9% uptime with all premium channels, sports, and PPV events.
+        Get the ultimate IPTV subscription UK. Join the UK best IPTV providers for buffer-free, 99.9% uptime with all premium channels, sports, and PPV events. Ready to subscribeIP TV?
       </p>
       <div className="mt-10">
         <a
@@ -189,9 +185,9 @@ const FeaturesGrid = () => (
     </div>
     <div className="container mx-auto px-4 md:px-6 relative">
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">The Ultimate IPTV Service for a Perfect Stream</h2>
+        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Top IPTV Services for a Perfect Stream</h2>
         <p className="mt-4 max-w-2xl mx-auto text-lg text-text-secondary">
-          Our IPTV service is packed with features designed for the ultimate UK viewing experience.
+          Our IPTV providers network is packed with features designed for the ultimate UK viewing experience.
         </p>
       </div>
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
@@ -226,8 +222,8 @@ const PricingTable = () => (
   <section id="pricing" className="w-full py-20 md:py-28">
     <div className="container mx-auto px-4 md:px-6">
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Choose Your IPTV Subscription Plan</h2>
-        <p className="mt-4 max-w-2xl mx-auto text-lg text-text-secondary">Simple, transparent pricing. Get instant access after payment.</p>
+        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">IPTV Subscribe: Choose Your Plan</h2>
+        <p className="mt-4 max-w-2xl mx-auto text-lg text-text-secondary">Simple, transparent pricing from the UK best IPTV providers. Get instant access after payment.</p>
       </div>
       <div className="grid grid-cols-1 gap-8 md:grid-cols-3 md:items-start">
         {/* Pricing Card 1 */}
@@ -242,7 +238,7 @@ const PricingTable = () => (
                 <li className="flex items-center"><PlusCircle className="h-5 w-5 text-primary mr-3" /> 24/7 Support</li>
             </ul>
              <a href="https://wa.me/447868197528?text=Hello,%20I%20would%20like%20to%20subscribe%20to%20the%201%20Month%20IPTV%20plan." target="_blank" rel="noopener noreferrer" className="mt-8 inline-flex h-11 items-center justify-center rounded-md bg-primary px-6 font-medium text-background shadow transition-colors hover:bg-primary-hover">
-                Choose Plan
+                IPTV Subscribe
             </a>
         </div>
         
@@ -261,7 +257,7 @@ const PricingTable = () => (
                 <li className="flex items-center"><Sparkles className="h-5 w-5 text-primary mr-3" /> Priority 24/7 Support</li>
             </ul>
             <a href="https://wa.me/447868197528?text=Hello,%20I%20would%20like%20to%20subscribe%20to%20the%2012%20Months%20(Best%20Value)%20IPTV%20plan." target="_blank" rel="noopener noreferrer" className="mt-8 inline-flex h-11 items-center justify-center rounded-md bg-primary px-6 font-medium text-background shadow-lg transition-transform duration-200 hover:scale-105">
-                Choose Plan
+                IPTV Subscribe
             </a>
         </div>
         
@@ -277,7 +273,7 @@ const PricingTable = () => (
                 <li className="flex items-center"><PlusCircle className="h-5 w-5 text-primary mr-3" /> 24/7 Support</li>
             </ul>
             <a href="https://wa.me/447868197528?text=Hello,%20I%20would%20like%20to%20subscribe%20to%20the%206%20Months%20IPTV%20plan." target="_blank" rel="noopener noreferrer" className="mt-8 inline-flex h-11 items-center justify-center rounded-md bg-primary px-6 font-medium text-background shadow transition-colors hover:bg-primary-hover">
-                Choose Plan
+                IPTV Subscribe
             </a>
         </div>
       </div>
@@ -291,7 +287,7 @@ const DeviceCompatibility = () => (
         <div className="container mx-auto px-4 md:px-6">
              <div className="text-center mb-12">
                 <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Works on All Your Devices</h2>
-                <p className="mt-4 max-w-2xl mx-auto text-lg text-text-secondary">Our IPTV subscription works perfectly on Firestick, Smart TV, Android, iOS, and more.
+                <p className="mt-4 max-w-2xl mx-auto text-lg text-text-secondary">Our IPTV subscription UK works perfectly on Firestick, Smart TV, Android, iOS, Smartone IPTV, and more.
                     Watch at home or on the go. Our service is compatible with all major devices and platforms.
                 </p>
             </div>
@@ -332,31 +328,31 @@ const FAQSection = () => (
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Frequently Asked Questions</h2>
         <p className="mt-4 text-lg text-text-secondary">Everything you need to know about our UK IPTV subscription service.
-          Your questions, answered. Everything you need to know about our UK IPTV service.
+          Your questions, answered by the UK best IPTV providers.
         </p>
       </div>
       <div className="space-y-6">
         <details className="group rounded-lg bg-card p-6 border border-card-border">
           <summary className="flex cursor-pointer items-center justify-between text-lg font-medium text-text-primary group-open:text-primary">
-            Do I need a VPN to use this service in the UK?
+            Do I need a VPN to use this IPTV subscription UK?
             <ChevronDown className="h-6 w-6 transition-transform group-open:rotate-180" />
           </summary>
           <p className="mt-4 text-text-secondary">
-            While our service is secure, we highly recommend using a VPN in the UK. It ensures your streaming activity remains private from your ISP and helps bypass any potential ISP-level blocking, guaranteeing uninterrupted access.
+            While our IPTV providers network is secure, we highly recommend using a VPN in the UK. It ensures your streaming activity remains private from your ISP and helps bypass any potential ISP-level blocking, guaranteeing uninterrupted access.
           </p>
         </details>
         <details className="group rounded-lg bg-card p-6 border border-card-border">
           <summary className="flex cursor-pointer items-center justify-between text-lg font-medium text-text-primary group-open:text-primary">
-            Does this IPTV service work on an Amazon Firestick?
+            Does this IPTV service work on an Amazon Firestick and Smartone IPTV?
             <ChevronDown className="h-6 w-6 transition-transform group-open:rotate-180" />
           </summary>
           <p className="mt-4 text-text-secondary">
-            Yes, absolutely. Our service is fully compatible with all Amazon Firestick devices (including Firestick 4K, Fire TV Cube). We provide a simple, step-by-step installation guide to get you set up in minutes.
+            Yes, absolutely. Our service is fully compatible with all Amazon Firestick devices and major apps like Smartone IPTV. We provide a simple, step-by-step installation guide to get you set up in minutes.
           </p>
         </details>
          <details className="group rounded-lg bg-card p-6 border border-card-border">
           <summary className="flex cursor-pointer items-center justify-between text-lg font-medium text-text-primary group-open:text-primary">
-            What UK sports channels are included?
+            What UK sports channels are included with the best IPTV UK?
             <ChevronDown className="h-6 w-6 transition-transform group-open:rotate-180" />
           </summary>
           <p className="mt-4 text-text-secondary">
@@ -365,11 +361,11 @@ const FAQSection = () => (
         </details>
          <details className="group rounded-lg bg-card p-6 border border-card-border">
           <summary className="flex cursor-pointer items-center justify-between text-lg font-medium text-text-primary group-open:text-primary">
-            Can I watch on multiple devices at the same time?
+            Can I watch on multiple devices at the same time with my IPTV subscription?
             <ChevronDown className="h-6 w-6 transition-transform group-open:rotate-180" />
           </summary>
           <p className="mt-4 text-text-secondary">
-            Our standard subscription allows for one connection at a time. However, we offer affordable multi-room options if you need to watch on multiple devices simultaneously. Please contact our support for a custom quote.
+            Our standard IPTV subscription UK allows for one connection at a time. However, we offer affordable multi-room options if you need to watch on multiple devices simultaneously. Please contact our support for a custom quote.
           </p>
         </details>
       </div>
