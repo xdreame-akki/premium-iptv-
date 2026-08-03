@@ -18,7 +18,7 @@ import {
 export const metadata: Metadata = {
   title: 'Best IPTV UK | Premium IPTV Subscription UK & Providers',
   description:
-    'Searching for the best IPTV UK? Get a premium IPTV subscription UK with 18,000+ channels. As one of the UK best IPTV providers, enjoy 4K sports. IPTV subscribe today!',
+    'Searching for the best IPTV UK? Get a premium IPTV subscription UK with 18,000+ channels. Enjoy 4K sports from top UK IPTV providers. Subscribe now! ',
   alternates: {
     canonical: 'https://premium-iptv-woad.vercel.app/', // Replace with your actual domain
   },
