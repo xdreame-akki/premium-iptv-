@@ -20,13 +20,13 @@ export const metadata: Metadata = {
   description:
     'Searching for the best IPTV UK? Get a premium IPTV subscription UK with 18,000+ channels. As one of the UK best IPTV providers, enjoy 4K sports. IPTV subscribe today!',
   alternates: {
-    canonical: 'https://www.premium-iptv-uk.com/', // Replace with your actual domain
+    canonical: 'https://premium-iptv-woad.vercel.app/', // Replace with your actual domain
   },
   openGraph: {
     title: 'The Best IPTV UK Subscription | Premium UK IPTV Providers',
     description:
       'Join the #1 IPTV providers in the UK. Our IPTV subscription UK offers buffer-free 4K streaming, instant access to sports, PPV, and thousands of channels. Perfect for Firestick, Smartone IPTV, and all devices.',
-    url: 'https://www.premium-iptv-uk.com/', // Replace with your actual domain
+    url: 'https://premium-iptv-woad.vercel.app/', // Replace with your actual domain
     siteName: 'Premium IPTV UK',
     images: [
       {
@@ -58,7 +58,7 @@ const JsonLdSchema = () => (
         mpn: 'IPTV-UK-12M',
         offers: {
           '@type': 'Offer',
-          url: 'https://www.premium-iptv-uk.com/#pricing', // Replace with your actual domain
+          url: 'https://premium-iptv-woad.vercel.app/#pricing', // Replace with your actual domain
           priceCurrency: 'GBP',
           price: '69.99',
           priceValidUntil: '2026-12-31',
