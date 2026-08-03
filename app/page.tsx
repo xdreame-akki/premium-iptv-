@@ -39,6 +39,9 @@ export const metadata: Metadata = {
     locale: 'en_GB',
     type: 'website',
   },
+  verification: {
+    google: 'lAulvS6O3UO1brZqxvSjfuF8ogFcp1TTjjk29lsUoBM',
+  },
 };
 
 const JsonLdSchema = () => (
