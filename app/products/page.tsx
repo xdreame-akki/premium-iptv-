@@ -6,11 +6,11 @@ import { products } from './products-data';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Our Products | Premium IPTV UK',
+  title: 'Premium IPTV UK Subscriptions | 4K Channels & VOD',
   description: 'Browse our range of premium IPTV subscription packages, optimized for the UK market. Starting from £14.99.',
   keywords: ['IPTV UK', 'IPTV subscription', 'UK IPTV', 'buy IPTV', 'IPTV packages'],
   alternates: {
-    canonical: '/products',
+    canonical: 'https://premium-iptv-woad.vercel.app/products',
   },
 };
 
