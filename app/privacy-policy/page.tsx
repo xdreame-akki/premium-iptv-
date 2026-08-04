@@ -2,8 +2,11 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Premium IPTV UK',
-  description: 'Privacy Policy for Premium IPTV UK.',
+  title: 'Privacy Policy for Premium IPTV UK Service - Your Data Rights',
+  description: 'Understand our commitment to your privacy. This policy details how Premium IPTV UK collects, uses, and protects your personal data when you use our services in the UK.',
+  alternates: {
+    canonical: 'https://premium-iptv-woad.vercel.app/privacy-policy',
+  },
 };
 
 const PrivacyPolicyPage = () => {

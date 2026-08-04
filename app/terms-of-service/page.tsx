@@ -2,8 +2,11 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Terms of Service | Premium IPTV UK',
-  description: 'Terms of Service for Premium IPTV UK.',
+  title: 'Terms of Service - Premium IPTV UK Subscription Agreement',
+  description: 'Review the terms and conditions governing your use of Premium IPTV UK\'s services. This agreement outlines user responsibilities, service usage, and subscription details in the UK.',
+  alternates: {
+    canonical: 'https://premium-iptv-woad.vercel.app/terms-of-service',
+  },
 };
 
 const TermsOfServicePage = () => {
